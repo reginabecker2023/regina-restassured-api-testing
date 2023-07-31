@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+      "cep",
+      "logradouro",
+      "complemento",
+      "bairro",
+      "localidade",
+      "uf",
+      "ibge",
+      "gia",
+      "ddd",
+      "siafi"
+  ],
+  "properties": {
+      "cep": {
+          "type": "string",
+          "default": "",
+          "title": "The cep Schema",
+          "examples": [
+              "91260-241"
+          ]
+      },
+      "logradouro": {
+          "type": "string",
+          "default": "",
+          "title": "The logradouro Schema",
+          "examples": [
+              "Rua Ernesto Zamprogna"
+          ]
+      },
+      "complemento": {
+          "type": "string",
+          "default": "",
+          "title": "The complemento Schema",
+          "examples": [
+              ""
+          ]
+      },
+      "bairro": {
+          "type": "string",
+          "default": "",
+          "title": "The bairro Schema",
+          "examples": [
+              "Morro Santana"
+          ]
+      },
+      "localidade": {
+          "type": "string",
+          "default": "",
+          "title": "The localidade Schema",
+          "examples": [
+              "Porto Alegre"
+          ]
+      },
+      "uf": {
+          "type": "string",
+          "default": "",
+          "title": "The uf Schema",
+          "examples": [
+              "RS"
+          ]
+      },
+      "ibge": {
+          "type": "string",
+          "default": "",
+          "title": "The ibge Schema",
+          "examples": [
+              "4314902"
+          ]
+      },
+      "gia": {
+          "type": "string",
+          "default": "",
+          "title": "The gia Schema",
+          "examples": [
+              ""
+          ]
+      },
+      "ddd": {
+          "type": "string",
+          "default": "",
+          "title": "The ddd Schema",
+          "examples": [
+              "51"
+          ]
+      },
+      "siafi": {
+          "type": "string",
+          "default": "",
+          "title": "The siafi Schema",
+          "examples": [
+              "8801"
+          ]
+      }
+  },
+  "examples": [{
+      "cep": "91260-241",
+      "logradouro": "Rua Ernesto Zamprogna",
+      "complemento": "",
+      "bairro": "Morro Santana",
+      "localidade": "Porto Alegre",
+      "uf": "RS",
+      "ibge": "4314902",
+      "gia": "",
+      "ddd": "51",
+      "siafi": "8801"
+  }]
+}
